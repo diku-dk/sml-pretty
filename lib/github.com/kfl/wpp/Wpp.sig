@@ -30,7 +30,7 @@ signature  Wpp =
     val int      : int   -> doc          (* an integer *)
     val char     : char  -> doc          (* an ML character *)
     val word     : word  -> doc          (* an ML word constant *)
-    val word8    : word8 -> doc          (* an ML word constant *)
+    val word8    : Word8.word -> doc     (* an ML word constant *)
     val real     : real  -> doc          (* an ML real constant *)
     val bool     : bool  -> doc          (* a boolean *)
 

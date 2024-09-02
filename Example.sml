@@ -51,3 +51,8 @@ val nestS10 = Wpp.toString 10 nestDoc
 
 end
 end
+
+val () =
+    (print ("S50:\n" ^ Example.nestS50 ^ "\n");
+     print ("S30:\n" ^ Example.nestS30 ^ "\n");
+     print ("S10:\n" ^ Example.nestS10 ^ "\n"))

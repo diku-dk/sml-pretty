@@ -1,0 +1,4 @@
+local $(SML_LIB)/basis/basis.mlb
+      lib/github.com/kfl/wpp/wpp.mlb
+in Example.sml
+end
