@@ -1,0 +1,25 @@
+on: [push]
+name: CI
+jobs:
+  runsml:
+    name: Run tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Debian packages
+        run: |
+          sudo apt-get -qq update
+          sudo apt-get install -y make
+
+      - uses: diku-dk/install-mlton@v1.0.0
+      - uses: diku-dk/install-mlkit@v1.0.1
+
+      - name: Check
+        run: |
+          mlton
+          mlkit --version
+
+      - run: |
+          mlton example.mlb && ./example
+          mlkit -output example example.mlb && ./example
