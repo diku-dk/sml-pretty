@@ -1,4 +1,4 @@
-package github.com/kfl/wpp
+package github.com/diku-dk/sml-pretty
 
 require {
 }
