@@ -4,7 +4,7 @@
 
    Copyright 1997, 1998, 1999, 2000, 2001 Ken Friis Larsen <ken@friislarsen.net>
 
-   This code is released under GNU LGPL version 2 or any later after
+   This code is released under GNU LGPL version 3 or any later after
    your choice, the licence can be obtained at
    http://www.gnu.org/copyleft/lgpl.html
 *)
